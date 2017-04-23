@@ -27,7 +27,7 @@ $(document).ready(function(){
 			$("#hitokoto").html(html); 
 		     },  
 		     error:function(e){
-		        alert('Opps,I met some problems');  
+		        alert('噢, 遇到了点小问题');  
 		     }  
 		 });
 	}
