@@ -88,12 +88,6 @@ img:active , a:active {
 	margin: 0;
 }
 
-.l_a {
-	display: inline-block;
-	font-weight: bold;
-	margin: 20px 0 0 0;
-}
-
 #hidetext {
 	border-top: 1px dotted;
 	margin-top: 20px;
