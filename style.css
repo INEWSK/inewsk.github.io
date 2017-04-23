@@ -1,8 +1,5 @@
-@charset "utf-8";
-/* CSS Document */
-
 body {
-	background-image: url(./background.png);
+	background-image: url(./background.jpg);
 	background-color: #F6F6E6;
 	background-position: right bottom;
 	background-attachment: fixed;
@@ -36,13 +33,21 @@ body {
 	display: none;
 }
 
+#hitokoto a:hover ,h1:hover, h2:hover, p:hover, a:hover {
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	-ms-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+	color: #000;
+}
+
 img:hover {
 	-webkit-transition: all ease 0.1s;
 	-moz-transition: all ease 0.1s;
 	-ms-transition: all ease 0.1s;
 	transition: all ease 0.1s;
-	filter: alpha(opacity=80);
-	-moz-opacity: 0.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
 	-khtml-opacity: 0.8;
 	opacity: 0.8;
 }
@@ -52,8 +57,8 @@ img:active , a:active {
 	-moz-transition: all ease 0.2s;
 	-ms-transition: all ease 0.2s;
 	transition: all ease 0.2s;
-	filter: alpha(opacity=50);
-	-moz-opacity: 0.5;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
 	-khtml-opacity: 0.5;
 	opacity: 0.5;
 }
@@ -77,20 +82,78 @@ h2 {
 	margin: 10px 0 20px 0;
 }
 
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
 #head {
 	width: 128px;
 	margin-top: 0;
 	border-radius: 500px;
 }
 
-@media screen and (min-width: 600px) {
+#tag p {
+	font-size: 16px;
+	margin: 0;
+}
+
+.l_a {
+	display: inline-block;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+}
+
+.btn {
+	padding: 20px 5px 10px 5px;
+	width: 46px;
+	-webkit-filter: brightness(-1);
+	-moz-filter: brightness(-1);
+	-ms-filter: brightness(-1);
+	filter: brightness(-1);
+}
+
+#hidetext {
+	border-top: 1px dotted;
+	margin-top: 20px;
+	padding-top: 0px;
+}
+
+#textdiv img , #hidetext img {
+	width: 32px;
+}
+
+#textdiv p {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+#imgh {
+	height: 10px;
+}
+
+#hitokoto {
+	margin: 5px 0 0 0;
+}
+
+#hitokoto a {
+	border: none;
+	color: #555;
+}
+
+@media screen and (min-width: 600px){
 
 	#hidetext {
 		display: none;
 	}
+
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 599px){
 
 	#btndiv {
 		display: none;
@@ -115,4 +178,5 @@ h2 {
 	p, h1, h2, a, p:hover, h1:hover, h2:hover, a:hover {
 		color: #FEFEFE;
 	}
+
 }
