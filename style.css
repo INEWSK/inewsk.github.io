@@ -107,16 +107,16 @@ img:active , a:active {
 	height: 10px;
 }
 
-#hitokoto {
+#lwlhitokoto {
 	margin: 5px 0 0 0;
 }
 
-#hitokoto a {
+#lwlhitokoto a {
 	border: none;
 	color: #555;
 }
 
-#hitokoto a:hover ,h1:hover, h2:hover, p:hover, a:hover {
+#lwlhitokoto a:hover ,h1:hover, h2:hover, p:hover, a:hover {
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	-ms-transition: all ease 0.2s;
