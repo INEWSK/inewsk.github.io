@@ -7,6 +7,7 @@
   <script src="http://res.cheny.org/jquery/jquery.min.js"></script> 
   <script src="./js/script.js"></script>
   <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
+  <script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script>
   <link rel="stylesheet" type="text/css" href="style.css" /> 
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
   <meta name="author" content="inewsk" /> 
@@ -25,12 +26,11 @@
     <section id="tag"> 
      <p itemprop="title">#家裡蹲 #LOLI控 #努力成為大人的小孩</p> 
      <br>
-     <p>目前還沒有什麼想說的</p> 
+     <div id="lwlhitokoto"><script>lwlhitokoto()</script></div>
     </section> 
   </header> 
    <p id="hitokoto"></p>
-  <script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script>
-   <div id="lwlhitokoto"><script>lwlhitokoto()</script></div>
+
 
    
  </body>
