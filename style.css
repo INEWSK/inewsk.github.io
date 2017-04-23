@@ -94,6 +94,15 @@ img:active , a:active {
 	padding-top: 0px;
 }
 
+#textdiv img , #hidetext img {
+	width: 32px;
+}
+
+#textdiv p {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
 #imgh {
 	height: 10px;
 }
