@@ -49,10 +49,18 @@ h1 {
 }
 
 h2 {
-	font-size: 14px;
-	line-height: 14px;
+	font-size: 16px;
+	line-height: 16px;
 	font-weight: normal;
 	margin: 10px 0 20px 0;
+}
+
+
+h3 {
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: normal;
+	margin: 0 0 20px 0;
 }
 
 img:hover {
@@ -86,15 +94,6 @@ img:active , a:active {
 #tag p {
 	font-size: 16px;
 	margin: 0;
-}
-
-.btn {
-	padding: 20px 5px 10px 5px;
-	width: 46px;
-	-webkit-filter: brightness(-1);
-	-moz-filter: brightness(-1);
-	-ms-filter: brightness(-1);
-	filter: brightness(-1);
 }
 
 #hidetext {
