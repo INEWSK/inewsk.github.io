@@ -130,6 +130,7 @@ img:active , a:active {
 	transition: all ease 0.2s;
 	color: #000;
 }
+
 @media screen and (min-width: 600px){
 
 	#hidetext {
