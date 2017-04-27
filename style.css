@@ -38,6 +38,10 @@ a {
 	border-bottom: dotted 1px;
 }
 
+ol, ul {
+	list-style: none;
+}
+
 h1 {
 	font-size: 32px;
 	line-height: 32px;
@@ -78,6 +82,24 @@ img:active , a:active {
 	-moz-opacity:0.5;
 	-khtml-opacity: 0.5;
 	opacity: 0.5;
+}
+
+.icon {
+	text-decoration: none;
+	position: relative;
+}
+
+.icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+.icon > .label {
+	display: none;
 }
 
 #head {
@@ -125,4 +147,40 @@ img:active , a:active {
 	-ms-transition: all ease 0.2s;
 	transition: all ease 0.2s;
 	color: #000;
+}
+
+@media screen and (min-width: 600px) {
+
+	#hidetext {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 599px) {
+
+	#btndiv {
+		display: none;
+	}
+
+	body {
+		background: #121314;
+		color: #FEFEFE;
+	}
+
+	#hitokoto a:hover {
+		color: #FFF;
+	}
+
+	#page {
+		background: none;
+		height: 100%;
+		width: 100%;
+		top: 0;
+	}
+
+	p, h1, h2, a, p:hover, h1:hover, h2:hover, a:hover {
+		color: #FEFEFE;
+	}
+
 }
