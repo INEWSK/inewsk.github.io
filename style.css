@@ -70,9 +70,9 @@ body {
 }
 
 #page {
-	max-width: 380px;
-	border-radius: 5px;
-	padding: 25px 10px;
+	max-width: 355px;
+	border-radius: 10px;
+	padding: 35px 15px;
 	margin: 50px auto 0 auto;
 	background: -webkit-linear-gradient(rgba(255,255,255,0.0), rgba(255,255,255,0.4),rgba(255,255,255,0.6),rgba(255,255,255,0.8));
 	background: -moz-linear-gradient(rgba(255,255,255,0.0), rgba(255,255,255,0.4),rgba(255,255,255,0.6),rgba(255,255,255,0.8));
