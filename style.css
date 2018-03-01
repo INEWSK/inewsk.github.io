@@ -170,9 +170,12 @@ img:active , a:active {
 }
 
 #lwlhitokoto a {
-	line-height: 16px;
 	border: none;
 	color: #555;
+}
+
+#lwlhitokoto p {
+	line-height: 16px;
 }
 
 #lwlhitokoto a:hover ,h1:hover, h2:hover, p:hover, a:hover {
