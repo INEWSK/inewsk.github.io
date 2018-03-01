@@ -170,6 +170,7 @@ img:active , a:active {
 }
 
 #lwlhitokoto a {
+	line-height: 16px;
 	border: none;
 	color: #555;
 }
