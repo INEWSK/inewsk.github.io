@@ -45,7 +45,7 @@ body {
 /* Basic */
 
 body {
-	background: url('./background.png');
+	background-image: url('./background.png');
 	background-color: #F6F6E6;
 	background-position: right bottom;
 	background-attachment: fixed;
