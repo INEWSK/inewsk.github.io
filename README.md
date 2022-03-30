@@ -1,1 +1,1 @@
-# inewsk.github.io
+Blog - https://inewsk.me
